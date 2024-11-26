@@ -9,7 +9,11 @@ app.get("/home",(req,res)=>{
     res.render("home")
 })
 
-app.get("/",(req,res)=>{
+app.get("/" ,(req,res)=> {
+    res.render("signup")    
+})
+
+app.get("/signup",(req,res)=>{
     res.render("signup")
 })
 
