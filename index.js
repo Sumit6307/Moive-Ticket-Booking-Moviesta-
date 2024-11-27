@@ -28,11 +28,11 @@ app.post("/signup", async (req,res)=>{
         password:password,
         date:date,
         month:month
-
+       
     })
-   
-   
     res.render("home")
+   
+    
 
 })
 app.get("/login",(req,res)=>{
